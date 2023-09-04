@@ -15,7 +15,7 @@ function Article() {
 
   useEffect(() => {
     axios
-      .get("https://front1-epws.onrender.com/product/fetchdata")
+      .get("https://back-q7ir.onrender.com/product/fetchdata")
       .then((res) => {
         setData(res.data.result);
         
