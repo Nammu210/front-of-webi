@@ -8,7 +8,7 @@ const Laptops = () => {
   const [data,setData]=useState([]);
 
   useEffect(()=>{
-    axios.get('http://localhost:9000/product/fetchbycat/laptop')
+    axios.get('https://front1-epws.onrender.com/product/fetchbycat/laptop')
     .then((res)=>{
       setData(res.data.result)
     })

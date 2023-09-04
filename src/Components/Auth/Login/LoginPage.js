@@ -19,7 +19,7 @@ const LoginPage = () => {
     setPassword(event.target.value);
   };
   const registerUser = async (userData)=>{
-    const api = "http://localhost:9000/userdata/login"
+    const api = "https://front1-epws.onrender.com/userdata/login"
     const response = await axios.post(api,userData)
     setResponseData(response.data)
     

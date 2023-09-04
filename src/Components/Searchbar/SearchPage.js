@@ -17,7 +17,7 @@ function SearchPage() {
       setNullHandle(true);
       setData([]);
     } else {
-      const API = `http://localhost:9000/product/search?keyword=${query}`;
+      const API = `https://front1-epws.onrender.com/product/search?keyword=${query}`;
       axios
         .get(API)
         .then((res) => setData(res.data))

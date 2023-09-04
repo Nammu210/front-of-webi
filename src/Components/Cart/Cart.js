@@ -44,7 +44,7 @@ const Cart = () => {
   const handleBuy = () => {
    
 
-    const API = "http://localhost:9000/orderdata/addorder";
+    const API = "https://front1-epws.onrender.com/orderdata/addorder";
     console.log("order placed");
 
     axios.post(API, cart);
