@@ -9,7 +9,7 @@ const Mobiles = () => {
   const [data,setData]=useState([]);
 
   useEffect(()=>{
-    axios.get('https://front1-epws.onrender.com/product/fetchbycat/mobile')
+    axios.get('https://back-q7ir.onrender.com/product/fetchbycat/mobile')
     .then((res)=>{
       setData(res.data.result)
     })

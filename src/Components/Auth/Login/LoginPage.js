@@ -19,7 +19,7 @@ const LoginPage = () => {
     setPassword(event.target.value);
   };
   const registerUser = async (userData)=>{
-    const api = "https://front1-epws.onrender.com/userdata/login"
+    const api = "https://back-q7ir.onrender.com/userdata/login"
     const response = await axios.post(api,userData)
     setResponseData(response.data)
     

@@ -8,7 +8,7 @@ const Ipad = () => {
   const [data,setData]=useState([]);
 
   useEffect(()=>{
-    axios.get('https://front1-epws.onrender.com/product/fetchbycat/watch')
+    axios.get('https://back-q7ir.onrender.com/product/fetchbycat/watch')
     .then((res)=>{
       setData(res.data.result)
     })

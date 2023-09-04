@@ -8,7 +8,7 @@ import "./featured.css";
 function FeaturedProducts() {
   const [data, setData] = useState([]);
   useEffect(() => {
-    const API = `https://front1-epws.onrender.com/product/fetchdata`;
+    const API = `https://back-q7ir.onrender.com/product/fetchdata`;
     axios
       .get(API)
       .then((res) => setData(res.data.result))

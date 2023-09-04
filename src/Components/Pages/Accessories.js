@@ -6,7 +6,7 @@ import AddToCart from '../Cart/AddtoCart';
 const Accessories = () => {
     const [data,setData]=useState([]);
   useEffect(()=>{
-    axios.get('https://front1-epws.onrender.com/product/fetchbycat/accessories')
+    axios.get('https://back-q7ir.onrender.com/product/fetchbycat/accessories')
     .then((res)=>{
       setData(res.data.result)
     })
