@@ -37,7 +37,7 @@ function Article() {
 
 const handleBuy = () => {
 
-  const API = "http://localhost:9000/orderdata/addorder";
+  const API = "https://back-q7ir.onrender.com/orderdata/addorder";
   console.log("order placed");
 
   axios.post(API, cart);
