@@ -66,8 +66,8 @@ const handleBuy = () => {
                         <div>Price: ₹ {value.price}</div>
                         <div>Privious price:<p className='mrp'>{value.oPrice}</p></div>
                         <div className="rating">
-                         <p>Rating:</p> 
-                          <img src={value.ratting} alt='images not found' width="100px" height="50px"></img>
+                         {/* <p>Rating:</p> 
+                          <img src={value.ratting} alt='images not found' width="100px" height="50px"></img> */}
                         </div>
                         
 
