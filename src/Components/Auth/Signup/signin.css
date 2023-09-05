@@ -102,24 +102,20 @@
     padding:20px 10px 10px;
     background:transparent;
     outline:none;
-    box-shadow: none;
+    
     color:#23242a;
     font-size: 1em;
-    letter-spacing: 0.05em;
-    transition: 1s;
-    z-index: 10;
-    border:none; 
+    
 }
 
 .box form .inputBox span{
     position:absolute;
     left:0;
     padding:20px 0px 10px;
-    pointer-events: none;
+   
     color: #8f8f8f;
     font-size: 1em;
-    letter-spacing: 0.05em;
-    transition: 0.5s;
+   
 }
 
 .box form .inputBox i{
@@ -130,9 +126,7 @@
     height: 4px;
     background: #fff;
     border-radius: 4px;
-    overflow: hidden;
-    transition: 1s;
-    pointer-events: none;
+    
 }
 
 .box form .links{
