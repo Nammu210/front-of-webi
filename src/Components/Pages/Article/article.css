@@ -1,17 +1,4 @@
-/* .main-content{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.content{
-    display:flex;
-    flex-direction:column;
-    justify-content: space-between;
-    margin-left:100px;
-}
-.cotent-tittle{
-    width:200px;
-} */
+
 
 .detail_cntnr{
     display: flex;
