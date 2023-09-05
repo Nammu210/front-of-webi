@@ -71,7 +71,7 @@ const handleBuy = () => {
                         </div>
                         
 
-                        <div>Quantity Available: {value.quantity}</div>
+                        {/* <div>Quantity Available: {value.quantity}</div> */}
                         </div>
                         
                          <div className="add-buy-btn"> <AddToCart item={value}/></div>
