@@ -13,7 +13,7 @@
 
 .pDImg{
     width: 400px;
-    height: 400px;
+    height: 300px;
 }
 
 .pd_text_cntnr{
@@ -79,7 +79,7 @@ align-items: center;
 
     .pDImg {
         width: 80%;
-    height: 80%;
+    height: 70%;
     position: absolute;
     left: 50%;
     top: 50%;

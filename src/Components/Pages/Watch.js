@@ -32,15 +32,15 @@ const Ipad = () => {
          <NavLink to={`/article/${ide}`}>
                        <img
                          src={image}
-                         width={200}
-                         height={200}
+                         width={220}
+                         height={150}
                          alt={"img not found"}
                        />
  
                        <div className="content">
                          <h3 className="cotent-tittle">{name}</h3>
                          <br />
-                         <img src={ratting} alt='images not found' width="100px" height="50px"></img>
+                         <img src={ratting} alt='images not found' width="80px" height="50px"></img>
                          <br />
  
                          <p className='price'>{price}...</p>
