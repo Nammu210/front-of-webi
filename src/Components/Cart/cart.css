@@ -205,6 +205,7 @@
 
   .addbtn{
     font-size: 20px;
+    margin-top: 0px;
   }
   .remove{
     position:relative;

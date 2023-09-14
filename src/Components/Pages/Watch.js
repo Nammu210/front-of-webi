@@ -32,23 +32,16 @@ const Ipad = () => {
          <NavLink to={`/article/${ide}`}>
                        <img
                          src={image}
-                         width={220}
-                         height={150}
+                         width={165}
+                         height={100}
                          alt={"img not found"}
                        />
- 
-                       <div className="content">
+                       {/* <div className="content"> */}
                          <h3 className="cotent-tittle">{name}</h3>
-                         <br />
                          <img src={ratting} alt='images not found' width="80px" height="50px"></img>
-                         <br />
- 
                          <p className='price'>{price}...</p>
-                         <br />
- 
                          <p className='mrp'>{oPrice}</p>
-                         <br/>
-                         </div>
+                         {/* </div> */}
                          </NavLink>
                          <div className='btn-cart'>
                          <AddToCart item={post} />

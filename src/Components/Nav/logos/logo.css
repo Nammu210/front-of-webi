@@ -23,7 +23,7 @@
    
     border-style: none;
     position:relative;
-    top:0px;
+    top:-20px;
     left:20px;
     color:white;
     font-size:20px;
@@ -43,7 +43,7 @@
     color:white;
     font-size:20px;
     position:relative;
-    top:0px;
+    top:-20px;
 }
 /* #cart{
     color:white;
@@ -82,7 +82,7 @@
     #profile{
         color:white;
         position:absolute;
-        top:-28px;
+        top:-48px;
         right:70px;
         font-size:25px;
     }

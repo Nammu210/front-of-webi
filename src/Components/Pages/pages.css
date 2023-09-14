@@ -26,11 +26,11 @@
     margin:30px;
     border: 2px solid black;
     border-radius: 10px;
-    width:280px;
+    width:230px;
     padding-left:30px;
     padding-bottom:20px;
     padding: 30px;
-    height: 500px;
+    height: 330px;
     
 }
 .content{
@@ -43,23 +43,32 @@
     align-content: center;
     height: 200px;
 }
+
+.med{
+    align-items: center;
+    padding: 0px,20px;
+}
 .mrp{
     color:blue;
     text-decoration: line-through;
 }
 button{
     margin-left: 10px;
-    width:100px;
+    width:80px;
     height:30px;
     border:1px solid black;
     /* border-radius: 20px; */
     background-color: white;
+    font-size: 10px;
+    margin-top: 20px;
+    align-items: center;
 } 
  button:hover{
     background-color: antiquewhite;
 }
 .btn-cart{
-    margin:20px;
+    margin:10px;
+    margin-left: 10px;
 }
 @media (max-width:1000px){
     .heading{
@@ -70,7 +79,7 @@ button{
         justify-content: center;
         padding: 30px;
         border: 2px solid black;
-        width:100%;
+        width:55%;
     }
     .content{
         position:relative;
@@ -79,10 +88,10 @@ button{
         
     }
     .main-content > img{
-        width:180px;
+        width:150px;
         height:170px;
         position: absolute;
+
     }
     
 }
-

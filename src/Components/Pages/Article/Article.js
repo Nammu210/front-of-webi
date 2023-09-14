@@ -69,14 +69,10 @@ const handleBuy = () => {
                          <p>Rating:</p> 
                           <img src={value.ratting} alt='images not found' width="100px" height="30px"></img>
                         </div>
-                        
-
                         {/* <div>Quantity Available: {value.quantity}</div> */}
                         </div>
-                        
-                         <div className="add-buy-btn"> <AddToCart item={value}/></div>
-                        <button onClick={handleBuy}>Buy Now</button>
-                        
+                         <div className="add-buy-btn"><AddToCart item={value}/></div>
+                        <button onClick={handleBuy}>Buy Now</button>  
                     </div>
                   </div>
                 </div>
